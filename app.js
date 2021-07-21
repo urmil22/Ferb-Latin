@@ -27,7 +27,7 @@ function clickHandler() {
         .then(json => {
             var translatedText = json.contents.translated;
             outputDiv.innerText = translatedText;
-        });
+        })
         .catch(errorHandler);
 }
 
