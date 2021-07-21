@@ -1,0 +1,117 @@
+body {
+  background-color: #60A5FA;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav {
+  padding: 0.5rem 1rem;
+  background-color: #e7923d;
+  margin: 1rem 3rem;
+  margin-bottom: 3rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+#image {
+  height: 40vh;
+  width: 15rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  width: 9in;
+  border: 1px solid black;
+  height: 8rem;
+  padding: 1rem 1rem;
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  display: block;
+  min-width: none;
+}
+
+
+#output {
+  width: 9in;
+  border: 1px solid black;
+  height: 8rem;
+  background-color: white;
+  padding: 1rem 1rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  display: block;
+  min-width: none;
+}
+
+.align-center {
+  margin: auto;
+  text-align: center;
+  padding: 1rem 1rem;
+
+}
+
+button {
+  border: none;
+  background: #e7923d;
+  color: #fff;
+  margin: 2rem 5rem;
+  width: 10rem;
+  padding: 1rem 1rem;
+  font-size: 16px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #e7923d;
+  border: #e7923d solid 1px;
+  background: #fff;
+}
+
+@media all and (max-width: 600px) {
+  textarea {
+    width: 3.2in;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+  #output {
+    width: 3.2in;
+    padding: 1rem;
+    margin: auto;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .align-center {
+    margin: auto;
+    text-align: center;
+    padding: 1rem 1rem;
+  
+  }
+}
